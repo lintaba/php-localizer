@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="Localizer">
+  <description>A coding standard for localizing everything.</description>
+
+  <rule ref="LocalizerStandard.Localizer.CollectStrings">
+   <properties>
+   <property name="locFn" value='_'/>
+   <property name="locFn2" value='__'/>
+   <property name="storage" value="strings.json"/>
+   </properties>
+  </rule>
+</ruleset>
